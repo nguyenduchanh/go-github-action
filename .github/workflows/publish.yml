@@ -17,7 +17,7 @@ jobs:
 
       ## Publishes our image to Docker Hub 😎
       - name: Publish to Registry
-        uses: nguyenduchanh/go-github-action
+        uses: nguyenduchanh/go-github-action@master
         with:
           ## the name of our image
           name: duchanh0109/go-api
